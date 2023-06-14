@@ -11,6 +11,7 @@ from dash import Dash, html, dash_table, dcc, callback, Output, Input
 from io import BytesIO
 
 
+# if using Matplotlib for creating figures
 def fig_to_uri(in_fig, close_all=True, **save_args):
     """
     # type: (plt.Figure) -> str
